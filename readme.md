@@ -1,6 +1,8 @@
-# GAAP & IFRS Compliant ERP System Design
+# GAAP & IFRS Compliant ERP System Design - Business Management System framework
 
 An implementation of a forward-only double-entry accounting method with a relational database.
+
+Original reason for this project was to allow me the ability to issue and track invoices without paying QuickBooks $30/month.
 
 * **Using**: C# • ASP.NET MVC • Vue.js • PostgreSQL
 * **Avoiding**: Reach • Angular
