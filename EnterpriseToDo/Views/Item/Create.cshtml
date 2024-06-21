@@ -165,7 +165,7 @@
         accounts: @Html.Raw(Json.Serialize(Model!.Accounts)),
         selectedRevenueAccountId: @Html.Raw(Model.SelectedRevenueChartOfAccountId.HasValue ? Model.SelectedRevenueChartOfAccountId.Value.ToString() : "null"),
         selectedAssetsAccountId: @Html.Raw(Model.SelectedAssetsChartOfAccountId.HasValue ? Model.SelectedAssetsChartOfAccountId.Value.ToString() : "null")
-              }
+                }
     },
     methods: {
       updateSelectedAccountId(accountId) {
@@ -189,7 +189,7 @@
     <legend>Developer Notes:</legend>
     <ul>
       <li>
-        I'm conflicted about what to do with the purchase price. The purchase price can be different depending on the vendor/location. At the vendor level, the vendor can have multiple locations with different price. But the vendor might have to be entered into the system as a different entity or just as an additional address. So price at vendor level or vendor plus address? And then how do you prevent users from wanting to enter the same vendor multiple times for some reason?
+        dev notes
       </li>
     </ul>
   </fieldset>
