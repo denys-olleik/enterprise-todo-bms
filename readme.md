@@ -206,6 +206,6 @@ CREATE TABLE "GeneralLedgerReconciliationTransaction"
 );
 ```
 
-There are integration options with banks and credit cards, but the option to import a CSV file is still a requirement.
+There are integration options with banks and credit cards, but the option to import a CSV file is still important.
 
 Note: An incoming check is usually entered into the system before it's deposited. Ideally, the check should be entered into a check-in-transit or similar account and further reconciled when the deposit appears on the statement.
