@@ -164,8 +164,8 @@
       return {
         accounts: @Html.Raw(Json.Serialize(Model!.Accounts)),
         selectedRevenueAccountId: @Html.Raw(Model.SelectedRevenueChartOfAccountId.HasValue ? Model.SelectedRevenueChartOfAccountId.Value.ToString() : "null"),
-        selectedAssetsAccountId: @Html.Raw(Model.SelectedAssetsChartOfAccountId.HasValue ? Model.SelectedAssetsChartOfAccountId.Value.ToString() : "null")
-                }
+        selectedAssetsAccountId: @Html.Raw(Model.SelectedAssetsChartOfAccountId.HasValue ? Model.SelectedAssetsChartOfAccountId.Value.ToString() : "null"),
+      }
     },
     methods: {
       updateSelectedAccountId(accountId) {
