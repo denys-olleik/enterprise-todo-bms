@@ -1,9 +1,9 @@
-# GAAP & IFRS Compliant ERP System Design - Business Management System framework
+# GAAP & IFRS Compliant ERP System Design - Business Management System thing
 
 An implementation of a forward-only double-entry accounting method with a relational database.
 
-* **Using**: C# • ASP.NET MVC • Vue.js • PostgreSQL
-* **Avoiding**: Reach • Angular
+* **Using**: C# â€¢ ASP.NET MVC â€¢ Vue.js â€¢ PostgreSQL
+* **Avoiding**: Reach â€¢ Angular
 
 **You're not an accountant. You are just a QuickBooks user.**
 
@@ -185,7 +185,7 @@ CREATE TABLE "GeneralLedgerInvoiceInvoiceLinePayment"
 
 The pattern repeats in the `GeneralLedgerReconciliationTransaction` table. A bank or credit card statement contains rows of transactions. Credit card statements will mostly have expense transactions while bank statements will have both expense and revenue transactions.
 
-Each transaction in the statement should be uniquely identifiable, but they rarely are—especially when the statement is imported from a CSV file.
+Each transaction in the statement should be uniquely identifiable, but they rarely areâ€”especially when the statement is imported from a CSV file.
 
 ```sql
 CREATE TABLE "GeneralLedgerReconciliationTransaction"
