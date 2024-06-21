@@ -187,6 +187,8 @@ namespace EnterpriseToDo.Controllers
             OrganizationId = GetOrganizationId()
           });
 
+          throw new NotImplementedException("under construction");
+
           await _inventoryLedgerService.CreateAsync(new InventoryLedger
           {
             ItemId = item.ItemID,
