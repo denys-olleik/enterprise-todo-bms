@@ -11,6 +11,8 @@ Original reason for this project was to allow me the ability to issue and track 
 
 ## Set Up
 
+User: test@example.com / test
+
 0. Have `dotnet` installed.
 1. Clone the repository.
 2. Check connection strings in `appsettings.json` to make sure you have database (`postgres`) with proper credentials.
